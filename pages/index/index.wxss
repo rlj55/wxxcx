@@ -1,0 +1,24 @@
+/**index.wxss**/
+.header {
+  height: 160rpx;
+  background-color: #1D1E72;
+}
+.w25{
+  width: 25%;
+}
+.zjimg{
+  width: 70rpx;
+  height: 70rpx;
+}
+.c096{
+  color: #2c4096;
+}
+.c758{
+  color: #58a758;
+}
+.c878{
+  color: #dd7878;
+}
+.c2dd{
+  color: #7892dd;
+}

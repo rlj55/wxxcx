@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container dflex flexd">
+  <view class="header dflex ac">
+    <view class="f16 cfff flexp tc mt30">智能组件</view>
+  </view>
+  <view class="panel dflex mt20">
+    <view class="w25 dflex flexd ac" wx:for="{{zjlist}}" wx:for-item="items">
+      <image class="zjimg" mode="aspectFit" src="{{items.icon}}"></image>
+      <view class="f14 mt5 {{items.color}}" :class="{{items.color}}">{{ items.name }}</view>
+    </view>
+  </view>
+</view>
